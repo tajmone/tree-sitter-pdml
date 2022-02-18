@@ -1,0 +1,116 @@
+#################################################
+#  Tree-sitter language for PDML:               #
+#  https://github.com/tajmone/tree-sitter-pdml  #
+#################################################
+
+*.log
+
+## Dependencies
+###############
+/node_modules/
+
+## Production
+#############
+/build/
+/target/
+
+## Testing
+##########
+/parser.exp
+
+## Rust
+#######
+Cargo.lock
+
+## NPM
+######
+package-lock.json
+
+## Binary files
+###############
+
+# Object files
+# ------------
+*.elf
+*.ko
+*.o
+*.obj
+
+# Static libraries
+# ----------------
+*.a
+*.la
+*.lib
+*.lo
+
+# Shared objects
+# --------------
+*.dll
+*.dylib
+*.so
+*.so.*
+
+# Executables
+# -----------
+*.app
+*.exe
+*.out
+
+
+## TMP Work Files
+#################
+___*.*
+___
+
+# Links and URLs:
+*.lnk
+*.url
+
+## Apps Local Settings & Temp Files
+###################################
+
+# Chrome's debug logs for local HTML pages:
+debug.log
+
+#########################
+## USER-SPECIFIC FILES ##
+#########################
+# Reserved for patterns that might be useful to end users of the project.
+
+
+## Apps Local Settings & Temp Files
+###################################
+
+# Chrome's debug logs for local HTML pages:
+debug.log
+
+############################
+## COMMON IGNORE PATTERNS ##
+############################
+
+## Linux
+########
+*~
+.directory
+.fuse_hidden*
+.nfs*
+.Trash-*
+
+## macOS
+########
+*.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon
+
+## Windows
+##########
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+.BIN/
+
+
+# EOF #

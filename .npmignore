@@ -1,0 +1,10 @@
+#################################################
+#  Tree-sitter language for PDML:               #
+#  https://github.com/tajmone/tree-sitter-pdml  #
+#################################################
+
+/test
+/examples
+/build
+/script
+/target

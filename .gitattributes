@@ -1,0 +1,39 @@
+#################################################
+#  Tree-sitter language for PDML:               #
+#  https://github.com/tajmone/tree-sitter-pdml  #
+#################################################
+
+* text=auto
+
+
+## Repository Configuration
+###########################
+.editorconfig    text eol=lf
+.gitattributes   text eol=lf
+.gitconfig       text eol=lf
+.gitignore       text eol=lf
+.gitlab-ci.yml   text eol=lf
+.gitmodules      text eol=lf
+.npmignore       text eol=lf
+.travis.yml      text eol=lf
+
+## Generated File Types
+#######################
+*.c      text eol=lf
+*.cc     text eol=lf
+*.gyp    text eol=lf
+*.h      text eol=lf
+*.js     text eol=lf
+*.json   text eol=lf
+*.rs     text eol=lf
+*.toml   text eol=lf
+
+## Miscellanea
+##############
+
+*.wasm binary
+
+/src/** linguist-generated
+/src/scanner.c linguist-generated=false
+/index.js linguist-generated
+/binding.gyp linguist-detectable=false
