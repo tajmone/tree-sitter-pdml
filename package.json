@@ -1,0 +1,28 @@
+{
+  "name": "tree-sitter-pdml",
+  "version": "0.1.0",
+  "description": "PDML grammar for Tree-sitter",
+  "main": "bindings/node",
+  "author": "Tristano Ajmone",
+  "license": "MIT",
+  "keywords": [
+    "Tree-sitter",
+    "PDML",
+    "parser",
+    "lexer"
+  ],
+  "dependencies": {
+    "nan": "^2.14.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tajmone/tree-sitter-pdml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tajmone/tree-sitter-pdml/issues"
+  },
+  "homepage": "https://github.com/tajmone/tree-sitter-pdml"
+}
