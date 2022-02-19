@@ -53,7 +53,6 @@ end_of_line = unset
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-
 [LICENSE]
 indent_size = unset
 indent_style = space
@@ -61,3 +60,13 @@ end_of_line = unset
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+
+## Ruby
+#######
+[{*.rb,*.gemspec,*.rake,Rakefile,rakefile}]
+indent_size = 2
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true

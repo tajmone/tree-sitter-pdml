@@ -28,6 +28,15 @@
 *.rs     text eol=lf
 *.toml   text eol=lf
 
+## Ruby Files
+#############
+[attr]Ruby text eol=lf
+*.rb        Ruby
+*.rake      Ruby
+*.gemspec   Ruby
+Rakefile    Ruby
+rakefile    Ruby
+
 ## Miscellanea
 ##############
 

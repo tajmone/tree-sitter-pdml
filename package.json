@@ -6,8 +6,8 @@
   "author": "Tristano Ajmone",
   "license": "MIT",
   "keywords": [
-    "Tree-sitter",
-    "PDML",
+    "tree-sitter",
+    "pdml",
     "parser",
     "lexer"
   ],
@@ -24,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/tajmone/tree-sitter-pdml/issues"
   },
-  "homepage": "https://github.com/tajmone/tree-sitter-pdml"
+  "homepage": "https://github.com/tajmone/tree-sitter-pdml",
+  "tree-sitter": [
+    {
+      "scope": "source.pdml",
+      "file-types": [
+        "pdml"
+      ]
+    }
+  ]
 }
